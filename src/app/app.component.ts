@@ -13,4 +13,9 @@ export class AppComponent {
     console.log($event);
     this.transferencia = $event;
   }
+
+  exibirModalErro($event: string) {
+    console.log($event)
+    alert($event)
+  }
 }
